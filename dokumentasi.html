@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Konten Video</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+    }
+
+    .sidebar {
+      background-color: #000000;
+      color: white;
+      min-height: 100vh;
+      padding: 20px 30px;
+      box-sizing: border-box;
+      width: 220px;
+      position: fixed;
+    }
+
+    .sidebar h1 {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 20px;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      color: #ff6600;
+    }
+
+    .main-content {
+      margin-left: 220px;
+      padding: 40px 20px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .section-title {
+      font-size: 28px;
+      color: #db5101;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .video-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .video-card video {
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .description {
+      padding: 20px;
+      color: #333;
+    }
+
+    .description a {
+      color: #db5101;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h1>Portofolio</h1>
+    <a href="Home.html">Home</a>
+    <a href="portofolio.html">Pembicara</a>
+    <a href="cv.html">CV</a>
+    <a href="about.html">Tentang Saya</a>
+  </div>
+
+  <div class="main-content">
+    <h2 class="section-title">Konten Video</h2>
+    <div class="video-card">
+      <video controls>
+        <source src="Konten-Video.mp4" type="video/mp4">
+      </video>
+      <div class="description">
+        Ini adalah salah satu konten video saya.<br>
+        Selengkapnya bisa cek di Instagram: 
+        <a href="https://instagram.com/salmanaudah_" >@salmanaudah_</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
